@@ -4,7 +4,7 @@
 https://www.vulnhub.com/entry/mission-pumpkin-v10-pumpkingarden,321/
 
 ### Description
-I discovered a loophole in the 1st level-PumpkinGarden of the Mission Pumpkin series ont he site *Vulnhub* that wasn't mentioned in the rules. This loophole allows for unintended shortcuts(gaining root access) that can undermine the intended challenge.
+I discovered a loophole in the 1st level-PumpkinGarden of the Mission Pumpkin series on the site `Vulnhub`,that wasn't mentioned in the rules. This loophole allows for unintended shortcuts(gaining root access) that can undermine the intended challenge.
 
 ### System Details
 1. Host- Parrot Security OS (Debian 64-bit)
@@ -32,9 +32,17 @@ I discovered a loophole in the 1st level-PumpkinGarden of the Mission Pumpkin se
 - It helps us skip almost 2/3rd of the machine.
 
 ### Suggested Fix
-- Disable the command *sudo /bin/bash* or *sudo /bin/sh* for logged in user accounts(privilege handling).
+- Disable the command `sudo /bin/bash` or `sudo /bin/sh` for logged in user accounts(privilege handling).
 
 ### Screenshots
+1. Web Page-->
+   ![Screenshot 2024-07-22 010458](https://github.com/user-attachments/assets/39a29393-5b8d-4c2a-938c-3b8e373df5c4)
+
+2. Spawning the root shell-->
+   ![Screenshot 2024-07-22 010442](https://github.com/user-attachments/assets/7cc5e2c6-3bd7-4bb4-88ce-15d2e70011ce)
+
+
+
 
 
 
