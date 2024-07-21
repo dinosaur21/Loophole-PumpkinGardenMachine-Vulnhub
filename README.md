@@ -35,13 +35,11 @@ I discovered a loophole in the 1st level-PumpkinGarden of the Mission Pumpkin se
 - Disable the command `sudo /bin/bash` or `sudo /bin/sh` for logged in user accounts(privilege handling).
 
 ### Screenshots
-1. Web Page-->
-   ![Screenshot 2024-07-22 010458](https://github.com/user-attachments/assets/39a29393-5b8d-4c2a-938c-3b8e373df5c4)
-
-2. Spawning the root shell-->
+1. Spawning the root shell-->
    ![Screenshot 2024-07-22 010442](https://github.com/user-attachments/assets/7cc5e2c6-3bd7-4bb4-88ce-15d2e70011ce)
 
-
+2.  Web Page-->
+   ![Screenshot 2024-07-22 010458](https://github.com/user-attachments/assets/39a29393-5b8d-4c2a-938c-3b8e373df5c4)
 
 
 
