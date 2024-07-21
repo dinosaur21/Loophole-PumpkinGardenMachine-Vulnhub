@@ -26,8 +26,15 @@ I discovered a loophole in the 1st level-PumpkinGarden of the Mission Pumpkin se
 | Step 10  | Try to use `sudo /bin/bash` or `sudo /bin/sh` to start a root shell directly; it works (the loophole).      | `sudo /bin/bash`<br>`sudo /bin/sh`                |
 | Step 11  | After gaining root access, navigate to any directory to find the `PumpkinGarden_key` file which has the base-64 encoded format for the phrase "Congratulations!" Gaining access to this file was the primary goal of the CTF. | (Navigate to find `PumpkinGarden_key` file)       |
 
+### Impact
+- This loophole allows gaining direct root shell access in early stages of the machine(login of first user itself).There are supposed to be more hints to gain access to 2 more users and there passwords which can be skipped in this case).
+- This root shell that we can start can allow us to move into a directory of our choice and gain the key without going through the other steps.
+- It helps us skip almost 2/3rd of the machine.
+
+### Suggested Fix
+- Disable the command *sudo /bin/bash* or *sudo /bin/sh* for logged in user accounts(privilege handling).
+
+### Screenshots
 
 
 
-## Additional Information
-- screenshots if there
