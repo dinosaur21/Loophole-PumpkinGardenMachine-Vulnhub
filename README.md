@@ -29,7 +29,7 @@ I discovered a loophole in the 1st level-PumpkinGarden of the Mission Pumpkin se
 `note: "<ip addr>" means target machine's ip address on the same network`
 
 ### Impact
-- This loophole allows gaining direct root shell access in early stages of the machine(login of first user itself).There are more hints to gain access to 2 more users and their passwords which can be skipped in this case).
+- This loophole allows gaining direct root shell access in early stages of the machine(login of first user itself).There are more hints to gain access to 2 more users and their passwords (which can be skipped in this case).
 - This root shell that we can start can allow us to move into a directory of our choice and gain the key without going through the other steps.
 - It helps us skip almost 2/3rd of the machine.
 
